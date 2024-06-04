@@ -13,16 +13,29 @@ import java.util.Scanner;
  * @author Julian Ventura
  */
 public class AddressBookApplication {
+    /**
+     * Address book instantiation for storing address entries.
+     */
     public static AddressBook addressBook = new AddressBook();
+    /**
+     * Scanner instantiation for capturing user input in console.
+     */
     private static final Scanner INPUT = new Scanner(System.in);
 
 
+    /**
+     * Used to add an address entry into the address book.
+     */
     public static void addAddressEntry() {
         AddressEntry addressEntry = promptAddressEntry();
         addressBook.add(addressEntry);
     }
 
 
+    /**
+     * Displays and gets the requested user input for creating a new address entry input by the user.
+     * @return an address entry created by the user.
+     */
     public static AddressEntry promptAddressEntry() {
         String firstName = prompt("Nombre:");
         String lastName = prompt("Apellido:");
@@ -48,12 +61,21 @@ public class AddressBookApplication {
     }
 
 
+    /**
+     * Used to prompt the user to input a string.
+     * @param message the message wished to be prompt in console.
+     * @return the string input by the user.
+     */
     private static String prompt(String message) {
         System.out.println(message);
         return INPUT.nextLine().trim();
     }
 
 
+    /**
+     * Displays and gets the requested user input for removing an address entry
+     * and uses the remove method from the AddressBook class.
+     */
     public static void removeAddressEntry() {
         if (addressBook.isEmpty())
             System.out.println("La libreta de direcciones está vacía");
@@ -77,6 +99,11 @@ public class AddressBookApplication {
     }
 
 
+    /**
+     * Displays and gets the requested user input for searching an address entry
+     * in the address book using the search method implemented in AddressBook. Then
+     * shows the matching addresses.
+     */
     public static void searchForAddressEntry() {
         if (addressBook.isEmpty())
             System.out.println("La libreta de contactos está vacía.");
@@ -100,6 +127,10 @@ public class AddressBookApplication {
     }
 
 
+    /**
+     * Displays a prompt confirmation (yes or no) and reads the input by the user.
+     * @return true if the input equals "y".
+     */
     private static boolean promptConfirmation() {
         String decision;
 
@@ -116,12 +147,20 @@ public class AddressBookApplication {
     }
 
 
+    /**
+     * Gets the name of the file and calls the method addFromFile
+     * from AddressBook.
+     */
     public static void addEntriesFromFile() {
         String fileName = prompt("Ingrese el nombre del archivo: ");
         addressBook.addFromFile(fileName);
     }
 
 
+    /**
+     * Main method for the execution of the application.
+     * @param args optional arguments
+     */
     public static void main(String[] args) {
         Menu.displayMenu();
 

@@ -5,6 +5,9 @@ package address;
  * @author Julian Ventura
  */
 public class Menu {
+    /**
+     * Displays the main menu containing the basic operations of the address book.
+     */
     public static void displayMenu() {
         System.out.println("===========================");
         System.out.println("Elige una opción del menú");
@@ -13,7 +16,7 @@ public class Menu {
         System.out.println("c) Eliminar");
         System.out.println("d) Buscar");
         System.out.println("e) Mostrar");
-        System.out.println("f) Salir");
+        System.out.println("f) Guardar y salir");
         System.out.println("===========================");
     }
 }
