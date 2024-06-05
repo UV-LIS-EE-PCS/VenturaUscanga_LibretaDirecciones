@@ -1,5 +1,7 @@
 package address;
 
+import address.data.Address;
+
 /**
  * Class used to display the menu.
  * @author Julian Ventura

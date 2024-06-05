@@ -54,7 +54,7 @@ public class Address {
      * Used to get a CSV format of the data contained in the address.
      * @return a string in CSV format containing the data of the address.
      */
-    public String toCSVFormat() {
+    protected String toCSVFormat() {
         return street + ',' + city + "," + state + "," + zipCode;
     }
 

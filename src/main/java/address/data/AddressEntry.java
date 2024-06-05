@@ -62,7 +62,7 @@ public class AddressEntry {
      * Used to get a CSV format of the data contained in the address entry.
      * @return a string in CSV format containing the data of the address entry.
      */
-    public String toCSVFormat() {
+    protected String toCSVFormat() {
         return firstName + ',' + lastName + ',' + address.toCSVFormat() + ',' + email + ',' + phoneNumber + '\n';
     }
 
