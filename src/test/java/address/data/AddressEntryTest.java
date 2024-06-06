@@ -15,29 +15,29 @@ public class AddressEntryTest {
 
 
     @Test
-    public void getFirstName() {
+    public void testGetFirstName() {
         assertEquals("Julian", entry.getFirstName());
     }
 
     @Test
-    public void setFirstName() {
+    public void testSetFirstName() {
         entry.setFirstName("Jose");
         assertEquals("Jose", entry.getFirstName());
     }
 
     @Test
-    public void getLastName() {
+    public void testGetLastName() {
         assertEquals("Ventura", entry.getLastName());
     }
 
     @Test
-    public void setLastName() {
+    public void testSetLastName() {
         entry.setLastName("Uscanga");
         assertEquals("Uscanga", entry.getLastName());
     }
 
     @Test
-    public void getAddress() {
+    public void testGetAddress() {
         assertEquals("Calle", entry.getAddress().getStreet());
         assertEquals("Ciudad", entry.getAddress().getCity());
         assertEquals("Estado", entry.getAddress().getState());
@@ -45,7 +45,7 @@ public class AddressEntryTest {
     }
 
     @Test
-    public void setAddress() {
+    public void testSetAddress() {
         entry.setAddress(new Address("Argentina", "Coatzacoalcos", "Veracruz", "96480"));
         assertEquals("Argentina", entry.getAddress().getStreet());
         assertEquals("Coatzacoalcos", entry.getAddress().getCity());
@@ -54,23 +54,23 @@ public class AddressEntryTest {
     }
 
     @Test
-    public void getEmail() {
+    public void testGetEmail() {
         assertEquals("julian@gmail.com", entry.getEmail());
     }
 
     @Test
-    public void setEmail() {
+    public void testSetEmail() {
         entry.setEmail("jose@gmail.com");
         assertEquals("jose@gmail.com", entry.getEmail());
     }
 
     @Test
-    public void getPhoneNumber() {
+    public void testGetPhoneNumber() {
         assertEquals("123453215", entry.getPhoneNumber());
     }
 
     @Test
-    public void setPhoneNumber() {
+    public void testSetPhoneNumber() {
         entry.setPhoneNumber("9213024843");
         assertEquals("9213024843", entry.getPhoneNumber());
     }
