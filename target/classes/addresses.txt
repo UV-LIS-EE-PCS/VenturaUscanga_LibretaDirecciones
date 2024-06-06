@@ -1,0 +1,5 @@
+Julian,Ventura,Calle,Ciudad,Estado,12345,julian@gmail.com,123453215
+Jose,Ventura,Calle,Ciudad,Estado,12345,jose@gmail.com,123453215
+Ramon,Saldana,Calle,Ciudad,Estado,12345,ramon@gmail.com,123453215
+Error,Error
+Julian,Uscanga,Calle,Ciudad,Estado,12345,julian@gmail.com,123453215

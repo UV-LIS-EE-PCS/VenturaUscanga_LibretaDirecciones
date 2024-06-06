@@ -1,0 +1,5 @@
+address\AddressBookApplicationTest.class
+address\data\AddressBookTest.class
+address\MenuTest.class
+address\data\AddressTest.class
+address\data\AddressEntryTest.class

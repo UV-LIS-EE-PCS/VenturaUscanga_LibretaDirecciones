@@ -1,0 +1,48 @@
+@options
+@packages
+-classpath
+'C:/Users/Julián/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar;C:/Users/Julián/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/Julián/pcs/proyecto/AddressBook/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Julián/pcs/proyecto/AddressBook/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Archetype - AddressBook 1.0 API'
+-use
+-version
+-windowtitle
+'Archetype - AddressBook 1.0 API'
+address
+address.data
+C:\Users\Julián\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar = 1717370862793
+C:\Users\Julián\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1341868082000
+C:\Users\Julián\pcs\proyecto\AddressBook\src\main\java = 1717556474383
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\allclasses-index.html = 1717646019939
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\allpackages-index.html = 1717646019940
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\copy.svg = 1717646019970
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\element-list = 1717646019880
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\help-doc.html = 1717646019967
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\index-all.html = 1717646019960
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\index.html = 1717646019926
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\member-search-index.js = 1717646019945
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\module-search-index.js = 1717646019942
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\overview-summary.html = 1717646019964
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\overview-tree.html = 1717646019923
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\package-search-index.js = 1717646019943
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\script.js = 1717646019970
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\search-page.js = 1717646019975
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\search.html = 1717646019962
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\search.js = 1717646019973
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\stylesheet.css = 1717646019969
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\tag-search-index.js = 1717646019946
+C:\Users\Julián\pcs\proyecto\AddressBook\target\site\apidocs\type-search-index.js = 1717646019944
