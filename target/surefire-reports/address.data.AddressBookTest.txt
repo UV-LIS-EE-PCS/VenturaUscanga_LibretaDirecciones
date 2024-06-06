@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: address.data.AddressBookTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.050 s -- in address.data.AddressBookTest
+=======
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s -- in address.data.AddressBookTest
+>>>>>>> d207e2b81bd0930f096e49974a2bff9856e27d7a

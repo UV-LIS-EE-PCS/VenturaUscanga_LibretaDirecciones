@@ -19,23 +19,26 @@ Contiene los siguientes atributos: calle, ciudad, estado y código postal. Sirve
 
 
 ## JavaDoc
-
+https://htmlpreview.github.io/?https://github.com/julianvent/VenturaUscanga_LibretaDirecciones/blob/main/target/site/apidocs/index.html
 ## UML
-
+![image](https://github.com/julianvent/Ventura_LibretaDirecciones/assets/127433986/1263d70a-2e4a-4960-b8cf-a09cc9bacfae)
+<br>
 
 ## Capturas de pantalla del sistema
 ### Evidencia 1: Entradas de archivo
 Desde la consola:<br>
-
+![image](https://github.com/julianvent/VenturaUscanga_LibretaDirecciones/assets/127433986/66b9d328-0e28-49f2-9d51-d25f7badc676)
+<br>
 Contenido del archivo<br>
-
+![image](https://github.com/julianvent/VenturaUscanga_LibretaDirecciones/assets/127433986/e71a1055-ea5d-4e31-851b-5b09d4ccc6c7)<br>
 <br>
 ### Evidencia 2: Agregar contacto<br>
-
+![image](https://github.com/julianvent/VenturaUscanga_LibretaDirecciones/assets/127433986/457108a7-051a-4f5d-a568-77cf3367c049)<br>
 <br>
 ### Evidencia 3: Eliminar contacto<br>
-
+![image](https://github.com/julianvent/VenturaUscanga_LibretaDirecciones/assets/127433986/eacc2b20-554f-4ad4-b773-c5aa9d2c790d)<br>
+![image](https://github.com/julianvent/VenturaUscanga_LibretaDirecciones/assets/127433986/75574985-a5a7-48cc-bd42-e55acacec824)<br>
 <br>
 ### Evidencia 4: Buscar contacto<br>
-
+![image](https://github.com/julianvent/VenturaUscanga_LibretaDirecciones/assets/127433986/e8e26c62-b195-4bf6-ba29-84d9d998566b)<br>
 <br>
