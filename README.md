@@ -19,9 +19,9 @@ Contiene los siguientes atributos: calle, ciudad, estado y código postal. Sirve
 
 
 ## JavaDoc
-https://htmlpreview.github.io/?https://github.com/julianvent/VenturaUscanga_LibretaDirecciones/blob/main/target/site/apidocs/index.html
+
 ## UML
-![image](https://github.com/julianvent/Ventura_LibretaDirecciones/assets/127433986/1263d70a-2e4a-4960-b8cf-a09cc9bacfae)
+![image](https://github.com/julianvent/VenturaUscanga_LibretaDirecciones/assets/127433986/c441de95-3b84-47f4-a1d2-0c9cac79acdd)
 <br>
 
 ## Capturas de pantalla del sistema
